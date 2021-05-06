@@ -1,0 +1,61 @@
+:root{
+    --primary: #111b54;
+    --light:#ffffff;
+    --grey:#efefef;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+a:hover{
+    text-decoration: none;
+
+}
+
+.bg-primary{background-color: var(--primary) !important;}
+.bg-light{background-color: var(--light) !important;}
+
+.btn{ border:0;}
+
+.btn-primary {background-color: var(--primary);}
+
+.btn-primary:hover {
+    background-color: var(--primary) ;
+}
+
+img .logoEmpresa{
+    width: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar-container{
+    min-height: 100vh;
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+/* text-align:center; */
+}
+
+#sidebar-container .menu{
+    width: 18rem;
+}
+
+.btn-search{
+    right:5px;
+}
+#content{
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.stat{
+    border-right: 1px solid var(--grey);
+}
