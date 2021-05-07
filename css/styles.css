@@ -19,6 +19,8 @@ a:hover{
 .bg-primary{background-color: var(--primary) !important;}
 .bg-light{background-color: var(--light) !important;}
 
+.bg-mix {background: linear-gradient(180deg, var(--light) 50%, var(--grey), 0);}
+
 .btn{ border:0;}
 
 .btn-primary {background-color: var(--primary);}
@@ -48,7 +50,7 @@ img .logoEmpresa{
 }
 
 .btn-search{
-    right:5px;
+    right:10px;
 }
 #content{
     overflow-y: auto;
